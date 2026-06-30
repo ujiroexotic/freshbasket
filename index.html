@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Basket</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+   
+    <!-- Font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Header section Start-->
+     <header class="header">
+        <!-- <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i> freshBasket</a> -->
+         <a href="#home" class="logo">
+        <img src="./asset/images/logo.png" alt="Fresh Basket">
+        </a>
+     
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"><span class="cart-count">0</span></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="total"> Total : #0/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="#" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Enter email" class="box">
+            <input type="password" placeholder="********" class="box">
+
+            <p>Forgot Password <a href="#" id="reset-link">Click Here</a></p>
+            <p>Don't Have An Account <a href="#" id="register-link">Register Now</a></p>
+
+            <input type="submit" value="sign in" class="btn">
+        </form>
+
+        <form action="#" class="password-form">
+            <h3>Reset password</h3>
+            <p>Enter your email and we will send you a reset link.</p>
+            <input type="email" placeholder="Enter email" class="box">
+            <input type="submit" value="send reset link" class="btn">
+        </form>
+
+        <form action="#" class="register-form">
+            <h3>Create account</h3>
+            <input type="text" placeholder="First name" class="box">
+            <input type="text" placeholder="Last name" class="box">
+            <input type="text" placeholder="Phone number" class="box">
+            <input type="email" placeholder="Enter email" class="box">
+            <input type="password" placeholder="Create password" class="box">
+            <input type="submit" value="sign up" class="btn">
+        </form>
+
+    <form action="#" class="delivery-form">
+    <h3>Delivery Address</h3>
+    <input type="text" placeholder="First name" class="box">
+    <input type="text" placeholder="Last name" class="box">
+    <input type="text" placeholder="Street Address" class="box">
+    <input type="text" placeholder="City" class="box">
+    <input type="text" placeholder="State" class="box">
+    <input type="tel" placeholder="Phone Number" class="box">
+    <input type="submit" value="Confirm Order" class="btn">
+</form>
+     </header>
+    <!-- Header section End-->
+
+    <!-- Home section Start -->
+     <section class="home swiper home-slider" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide slide-1">
+                <div class="content">
+                    <h3>fresh and <span>organic</span> products for your</h3>
+                    <p>Enjoy nutrient-rich produce picked fresh daily, delivered fast to keep your meals vibrant and delicious.</p>
+                    <a href="#products" class="btn">shop now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide slide-2">
+                <div class="content">
+                    <h3>healthy <span>fruits</span> for your family</h3>
+                    <p>Get quality fruits and vegetables delivered fresh to your door.</p>
+                    <a href="#categories" class="btn">view now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide slide-3">
+                <div class="content">
+                    <h3>fast <span>delivery</span> everyday</h3>
+                    <p>Order your groceries with easy payment and quick delivery.</p>
+                    <a href="#features" class="btn">learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+     </section>
+    <!-- Home section End -->
+
+    <!-- Features section Start -->
+     <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./asset/images/feature-img-1.png" alt="">
+                <h3>fresh and organic</h3>
+                <p>Harvested fresh from trusted farms and packed with flavor for your healthiest meals.</p>
+                <div class="more-text">
+                    <p>Stay healthy with farm-fresh produce selected for flavor and quality. We source organic fruits and vegetables daily.</p>
+                </div>
+                <a href="#" class="btn read-more-btn">Read More</a>    
+            </div>
+
+            <div class="box">
+                <img src="./asset/images/feature-img-2.png" alt="">
+                <h3>free delivery</h3>
+                <p>Doorstep delivery that’s fast, reliable, and designed to keep your kitchen stocked with ease.</p>
+                <div class="more-text">
+                    <p>Enjoy fast doorstep delivery with no extra charge on orders above the minimum amount. Fresh goods arrive ready to use.</p>
+                </div>
+                <a href="#" class="btn read-more-btn">Read More</a>    
+            </div>
+
+            <div class="box">
+                <img src="./asset/images/feature-img-3.png" alt="">
+                <h3>Easy payments</h3>
+                <p>Secure checkout options make shopping quick, safe, and wonderfully convenient.</p>
+                <div class="more-text">
+                    <p>Pay securely using multiple methods, including cards, mobile payment, and cash on delivery. Checkout is quick and simple.</p>
+                </div>
+                <a href="#" class="btn read-more-btn">Read More</a>    
+            </div>
+        </div>
+     </section>
+    <!-- Features section End -->
+
+     <!-- Products section Start -->
+      <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./asset/images/orange.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price"> #150/- </div>
+<div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./asset/images/apple.png" alt="">
+                    <h3>fresh apple</h3>
+                    <div class="price"> #1,200/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./asset/images/banana.png" alt="">
+                    <h3>fresh banana</h3>
+                    <div class="price"> #200/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./asset/images/watermelon.png" alt="">
+                    <h3>fresh watermelon</h3>
+                    <div class="price"> #3,500/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+         <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+         
+                <div class="swiper-slide box">
+                    <img src="./asset/images/pineapple.png" alt="">
+                    <h3>fresh Pineapple</h3>
+                    <div class="price"> #1,500/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./asset/images/avocado.png" alt="">
+                    <h3>fresh avocado</h3>
+                    <div class="price"> #500/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./asset/images/carrot.png" alt="">
+                    <h3>fresh carrot</h3>
+                    <div class="price"> #200/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./asset/images/pawpaw.png" alt="">
+                    <h3>fresh pawpaw</h3>
+                    <div class="price"> #800/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            </div>
+      </section>
+     <!-- Products section End -->
+
+     <!-- Categories Section Start -->
+      <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./asset/images/cat-1.png" alt="">
+                <h3>Organic Vegetables</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+                <div class="box">
+                <img src="./asset/images/cat-2.png" alt="">
+                <h3>Fresh Fruits</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+                <div class="box">
+                <img src="./asset/images/cat-3.png" alt="">
+                <h3>Dairy Products</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+                <div class="box">
+                <img src="./asset/images/cat-4.png" alt="">
+                <h3>Fresh Meat</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+      </section>
+     <!-- Categories Section End -->
+
+      <!-- Review Start -->
+       <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./asset/images/pic-1.png" alt="">
+                    <p>Exceptional freshness and speedy delivery—this service makes grocery shopping effortless and splendid.</p>
+                    <h3>Patrick Edochie</h3>
+                    <div class="stars">
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./asset/images/pic-2.png" alt="">
+                    <p>The produce is always fresh, and the whole ordering experience feels premium and superb.</p>
+                    <h3>Cynthia Kalu</h3>
+                    <div class="stars">
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./asset/images/pic-3.png" alt="">
+                    <p>Every delivery feels fresh and dependable, with premium produce that keeps customers coming back.</p>
+                    <h3>Maxwell Ekubo</h3>
+                    <div class="stars">
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./asset/images/pic-4.png" alt="">
+                    <p>Fresh Basket makes it easy to cook with premium ingredients, every order arrives beautifully packed.</p>
+                    <h3>Florence Nnaji</h3>
+                    <div class="stars">
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+      <!-- Review End -->
+
+      <!-- Blogs section Start -->
+       <section class="blogs" id="blogs">
+            <h1 class="heading"> our <span>blogs</span></h1>
+
+            <div class="box-container">
+
+                <div class="box blog-box">
+                    <img src="./asset/images/meal-prep-20.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fa fa-user"></i> By Glory Orji</a>
+                            <a href="#"> <i class="fa fa-calender"></i> 10th June, 2026</a>
+                        </div>
+                        <h3>Meal prep made easy</h3>
+                        <p>Master the art of meal planning with fresh ingredients curated specifically for balanced, delicious weeknight dinners.</p>
+                        <div class="more-text">
+                            <p>More details: Learn time-saving techniques and creative recipes that transform Fresh Basket groceries into restaurant-quality meals in your own kitchen. From batch cooking to pantry-friendly meals, our tips make every dinner faster, healthier, and more delicious.</p>
+                            <p>Explore seasonal menus that reduce waste and keep your family excited about every meal, with ingredient combos designed for easy prep and maximum flavor.</p>
+                        </div>
+                        <a href="#" class="btn read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="box blog-box">
+                    <img src="./asset/images/Healthy-Meal-Prep-Bowls-FI.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fa fa-user"></i> By Frank Adekunle</a>
+                            <a href="#"> <i class="fa fa-calender"></i> 15th June, 2026</a>
+                        </div>
+                        <h3>Healthy living starts with quality ingredients</h3>
+                        <p>Transform your wellness journey by choosing nutrient-dense, organic produce that fuels your body and mind.</p>
+                        <div class="more-text">
+                            <p>More details: Fresh Basket partners with certified organic farms to bring you the cleanest, most nutritious options available. Discover how seasonal produce can help boost immunity, increase energy, and support a balanced lifestyle with every delivery.</p>
+                            <p>Learn how to combine superfoods, whole grains, and fresh herbs into simple meals that nourish your body and make healthy eating feel effortless.</p>
+                        </div>
+                        <a href="#" class="btn read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="box blog-box">
+                    <img src="./asset/images/fall-meal-prep-ingredients-square.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fa fa-user"></i> By Amaka Kanu</a>
+                            <a href="#"> <i class="fa fa-calender"></i> 21st June, 2026</a>
+                        </div>
+                        <h3>Sustainable farming meets your table</h3>
+                        <p>Discover how local farmers deliver nutrient-packed produce straight to your doorstep with minimal waste.</p>
+                        <div class="more-text">
+                            <p>More details: Our commitment to sustainability means every product is grown with care for the environment and your health. Learn how choosing Fresh Basket helps reduce food waste, support ethical farms, and bring more responsible eating to your family table.</p>
+                            <p>Read about our eco-friendly delivery practices, seasonal sourcing, and how every order makes it easier to shop with purpose without sacrificing flavor.</p>
+                        </div>
+                        <a href="#" class="btn read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+       </section>
+      <!-- Blogs section End -->
+
+      <!-- Footer section Start -->
+       <section class="footer">
+
+        <div class="box-container">
+            
+            <div class="box">
+                <!-- <h3> FreshBasket <i class="fa fa-shopping-basket"></i></h3> -->
+                 <a href="#home" class="logo">
+                <img src="./asset/images/logo.png" alt="Fresh Basket"></a>
+
+                <p>Your trusted source for farm fresh groceries, delivered with care and quality.</p>
+                <div class="share">
+                    <a href="https://facebook.com/ujiro.eruteya" target="_blank" rel="noopener noreferrer" class="fa fa-facebook-f"></a>
+                    <a href="https://x.com/ujiroexotic" target="_blank" rel="noopener noreferrer" class="fa fa-twitter"></a>
+                    <a href="https://instagram.com/ujiroexotic" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
+                    <a href="https://linkedin.com/in/ujiro-eruteya" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/ujiroexotic" target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                    <a href="#" class="links"><i class="fa fa-phone"></i> +234-7037608205</a>
+                    <a href="#" class="links"><i class="fa fa-phone"></i> +234-8078402908</a>
+                    <a href="#" class="links"><i class="fa fa-envelope"></i>ujiroeruteya@gmail.com</a>
+                    <a href="#" class="links"><i class="fa fa-map-market-alt"></i>Asaba, Nigeria - 320241</a>
+                </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                    <a href="#home" class="links"><i class="fa fa-arrow-right"></i> home</a>
+                    <a href="#features" class="links"><i class="fa fa-arrow-right"></i> features</a>
+                    <a href="#products" class="links"><i class="fa fa-arrow-right"></i> products</a>
+                    <a href="#categories" class="links"><i class="fa fa-arrow-right"></i> categories</a>
+                    <a href="#review" class="links"><i class="fa fa-arrow-right"></i> review</a>
+                    <a href="#blogs" class="links"><i class="fa fa-arrow-right"></i> blogs</a>
+                </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="#" class="newsletter-form">
+                    <input type="email" name="newsletter-email" placeholder="your email" class="email" autocomplete="email" required>
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+                <img src="./asset/images/logo.png" class="payment-img" alt="">
+            </div>
+            </div>
+        <div class="credit">
+    &copy; <span id="year"></span> Created by <span>Ujiro Eruteya</span> | All rights reserved.
+    </div>
+   <script> 
+        document.getElementById("year").textContent = new Date().getFullYear(); 
+    </script>
+       </section>
+      <!-- Footer section End -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
